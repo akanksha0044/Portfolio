@@ -17,6 +17,7 @@
 .proOverview{
     display: flex;
     flex-direction: row;
+   
 
 }
 .Des{
@@ -44,4 +45,17 @@
 .link{
     
     color: blue;
+}
+@media screen and (max-width:600px){
+    .proOverview{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Des{
+       width: 70vw;
+       height: auto;
+        }
 }

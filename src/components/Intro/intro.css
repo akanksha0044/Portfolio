@@ -1,8 +1,10 @@
 #intro{
-    height: calc(100vh-5rem);
+    height: calc(100vh-4rem);
     width: 100vw;
-   margin-left: 2rem;
+    max-width: 75rem;
+  margin: 0 auto;
     position: relative;
+    overflow: hidden;
    
    
 }
